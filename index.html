@@ -6,84 +6,58 @@
 <body>
 <form action="?" method="get">
 <div>
-    <p> Логин </p>
-    <input tabindex="1" placeholder="Логин" type="text" name="login" value="" />
+    <p>Имя</p>
+    <input tabindex="1" placeholder="Имя" type="text" name="login"  />
 </div>
 <div>
     <p> Пароль </p>
-    <input tabindex="2" placeholder="Пароль" type="password" name="userpass" value="" />
+    <input tabindex="2"  type="password" name="userpass"  />
 </div>
 <div>
     <p> Телефон </p>
-    <input tabindex="3" placeholder="Телефон" type="userphone" name="tell" value="" />
+    <input tabindex="3"  type="userphone" name="tell"  />
 </div>
 <div>
     <p>Пол</p>
     <div>
-    <input tabindex="4" checked type="radio" name="gender" value="male" /> Мужчина
+    <input tabindex="4" checked type="radio" name="gender" value="male" /> Мужской
     </div>
         <div>
-    <input tabindex="4"  type="radio" name="gender" value="famale" /> Вагинокапиталистка
+    <input tabindex="4"  type="radio" name="gender" value="famale" /> Женский
         </div>
 </div>
 <div>
-    <p>Время секса</p>
+    <p>Имущество</p>
     <div>
-    <input tabindex="5" checked type="checkbox" name="time" value="2" /> 2 минуты
+    <input tabindex="5" checked type="checkbox" name="bike" value="yes" /> Велик
     </div>
         <div>
-    <input tabindex="6" disabled type="checkbox" name="time" value="15" /> 15 минут
+    <input tabindex="6"  type="checkbox" name="car" value="yes" /> Машина
         </div>
             <div>
-    <input tabindex="7" disabled type="checkbox" name="time" value="45" /> 45 минут
+    <input tabindex="7" disabled type="checkbox" name="house" value="yes" /> Дом
             </div>
 </div>
 <div>
-    <p>Tесака знаешь?</p>
-    <div>
-    <input tabindex="8"  type="radio" name="1" value="" /> да
-    </div>
-        <div>
-    <input tabindex="9"  type="radio" name="1" value="" /> нет
-        </div>
-</div>
 <div>
-    <p>Познакомиться нельзя?</p>
-    <div>
-    <input tabindex="10" type="radio" name="aboba" value="" /> да
-    </div>
-        <div>
-    <input tabindex="11" type="radio" name="aboba" value="" /> нет
-        </div>
+    <p>Дополнительная информация</p>
+    <textarea tabindex="14"  name="text" ></textarea>
 </div>
-<div>
-    <p>Как дела в школе?</p>
-    <div>
-    <input tabindex="12" type="checkbox" name="shcool" value="yes" /> посещял
-    </div>
-        <div>
-    <input tabindex="12" type="checkbox" name="shcool1" value="no" /> ходил
-        </div>
-</div>
-<div>
-<p>Анализ на гоя</p>
+    <p>Прикрепить фото</p>
     <p><input type="file" name="picture"> </p>
-</div>
+    </div>
 <div>
-    <textarea tabindex="14" placeholder="Оставить отзыв о анализе" name="text" ></textarea>
-</div>
-<div>
-    <p>Кого ты поддерживаешь?</p>
+    <p>Любимый цвет</p>
     <select name="old">
-        <option tabindex="15" value="Human"> Вагинофашисток</option>
-        <option tabindex="16" selected value="Human"> Поднебесный</option>
-        <option tabindex="17" value="Human"> Экоцид</option>
+        <option tabindex="15" selected value="red"> Красный</option>
+        <option tabindex="16"  value="green"> Зеленый</option>
+        <option tabindex="17" value="yellow"> Желтый</option>
     </select>
 </div>
 <div>
-    <p> Сделай свой выбор</p>
-    <button tabindex="17" type="submit"> Уничтожить вагинокапитализм</button>
-    <button tabindex="18" type="reset"> Отказаться от войны(Проиграть)</button>
+    <p> Действия</p>
+    <button tabindex="18" type="submit"> Отправить</button>
+    <button tabindex="19" type="reset"> Сбросить</button>
 </div>
 </form>
  </body>
